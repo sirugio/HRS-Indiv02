@@ -23,7 +23,7 @@ public class E9 {
             System.out.println(numero + " x 9 = " + numero * 9);
             System.out.println(numero + " x 10 = " + numero * 10);
             System.out.println("¿Quiere ver otra tabla? s/n ");
-            respuesta = in.next()
-        } while (respuesta = s);
+            respuesta = in.next();
+        } while (respuesta.equals("s"));
     }
 }
